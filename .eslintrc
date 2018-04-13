@@ -1,0 +1,84 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "jsx-a11y"
+  ],
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-console": "off",
+    "no-underscore-dangle": "off",
+    "max-len": [
+      1,
+      99,
+      2
+    ],
+    "semi": "off",
+    "prefer-const": "warn",
+    "curly": [
+      2,
+      "all"
+    ],
+    "eqeqeq": [
+      2,
+      "allow-null"
+    ],
+    "no-shadow": "warn",
+    "func-names": "off",
+    "quotes": [
+      2,
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "no-multiple-empty-lines": [
+      2,
+      {
+        "max": 1,
+        "maxEOF": 0,
+        "maxBOF": 0
+      }
+    ],
+    "no-unused-vars": [
+      "warn",
+      {
+        "ignoreRestSiblings": true
+      }
+    ],
+    "react/prefer-es6-class": "warn",
+    "react/prefer-stateless-function": "off",
+    "react/forbid-prop-types": "off",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/jsx-filename-extension": "off",
+    "jsx-a11y/anchor-is-valid": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    },
+    "node": {
+      "extensions": [
+        ".js",
+        ".es6"
+      ],
+      "moduleDirectory": [
+        "node_modules",
+        "src"
+      ]
+    }
+  }
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+*::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 20px;
+}
+
+body {
+  font-family: 'Lato';
+}
+
+.ant-table {
+  background-color: #fff;
+}
+.ant-table-tbody td span a {
+  color: inherit !important;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.ant-table-row:hover > td,
+.ant-dropdown-menu-item:hover {
+  background-color: #f8f8f8 !important;
+}
+
+/* Animaciones */
+.fade-appear,
+.fade-enter {
+  opacity: 0.01;
+}
+.fade-appear-active,
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}

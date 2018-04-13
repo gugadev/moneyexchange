@@ -1,0 +1,40 @@
+{
+  "presets": [
+    [
+      "env", {
+        "targets": {
+          "node": "6.3.1"
+        }
+      }
+    ],
+    "flow",
+    "react"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        "env",
+        "jest",
+        "react", [
+          "env", {
+            "targets": {
+              "node": "6.3.1"
+            },
+            "modules": false
+          }
+        ]
+      ]
+    }
+  },
+  "plugins": [
+    [
+      "module-resolver", {
+        "root": ["./"],
+        "alias": {
+          "~": "./src"
+        }
+      }
+    ],
+    "transform-object-rest-spread"
+  ]
+}

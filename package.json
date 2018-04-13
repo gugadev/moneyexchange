@@ -1,0 +1,73 @@
+{
+  "name": "moneyexchange",
+  "version": "0.1.0",
+  "description": "coin exchange landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js",
+    "build": "webpack",
+    "build:dev": "webpack --watch --config webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gugadev/moneyexchange-belatrix.git"
+  },
+  "keywords": [
+    "belatrix"
+  ],
+  "author": "Gustavo García",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gugadev/moneyexchange-belatrix/issues"
+  },
+  "homepage": "https://github.com/gugadev/moneyexchange-belatrix#readme",
+  "dependencies": {
+    "antd": "^3.4.1",
+    "express": "^4.16.3",
+    "formik": "^0.11.11",
+    "lodash.isempty": "^4.4.0",
+    "moment": "^2.22.0",
+    "numeral": "^2.0.6",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-select": "^1.2.1",
+    "react-transition-group": "^2.3.0",
+    "recompose": "^0.26.0",
+    "uuid": "^3.2.1",
+    "yup": "^0.24.1"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "css-loader": "^0.28.11",
+    "es6-promise": "^4.2.4",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "exports-loader": "^0.7.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "imports-loader": "^0.8.0",
+    "jest": "^22.4.3",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
